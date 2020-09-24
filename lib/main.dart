@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
           title: Text(
             'VidConf',
           ),
-          centerTitle: true,
         ),
       ),
     );
