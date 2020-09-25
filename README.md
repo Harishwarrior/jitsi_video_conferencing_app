@@ -1,6 +1,6 @@
 # video_conferencing_app
 
-A video conferencing app made with flutter
+A video conferencing app made with flutter using jitsi SDK.
 
 ## Getting Started
 
