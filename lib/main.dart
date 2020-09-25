@@ -44,9 +44,12 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('VidConf'),
+          centerTitle: true,
+          backgroundColor: Colors.green,
         ),
         body: Container(
           padding: const EdgeInsets.symmetric(
