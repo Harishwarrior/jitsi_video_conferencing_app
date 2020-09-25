@@ -18,10 +18,10 @@ samples, guidance on mobile development, and a full API reference.
 ## How to compile 
 
 1. Pull the project.
-2. run ``pub get``.
-3. run ``flutter build apk --debug``.
-4. then ``run flutter build apk --profile``.
-5. then ``run flutter build apk --release``.
+2. run ``pub get``
+3. run ``flutter build apk --debug``
+4. then ``run flutter build apk --profile``
+5. then ``run flutter build apk --release``
 
-For split apk run ``flutter build apk --split-per-abi``.
+For split apk run ``flutter build apk --split-per-abi``
 
