@@ -17,10 +17,10 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final serverText = TextEditingController();
-  final roomText = TextEditingController(text: "plugintestroom");
-  final subjectText = TextEditingController(text: "My Plugin Test Meeting");
-  final nameText = TextEditingController(text: "Plugin Test User");
-  final emailText = TextEditingController(text: "fake@email.com");
+  final roomText = TextEditingController(text: "");
+  final subjectText = TextEditingController(text: "");
+  final nameText = TextEditingController(text: "");
+  final emailText = TextEditingController(text: "");
   var isAudioOnly = true;
   var isAudioMuted = true;
   var isVideoMuted = true;
@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text('VidConf'),
           centerTitle: true,
-          backgroundColor: Colors.green,
+          backgroundColor: Colors.blue,
         ),
         body: Container(
           padding: const EdgeInsets.symmetric(
