@@ -61,13 +61,13 @@ class _MyAppState extends State<MyApp> {
                 SizedBox(
                   height: 24.0,
                 ),
-                TextField(
-                  controller: serverText,
-                  decoration: InputDecoration(
-                      border: OutlineInputBorder(),
-                      labelText: "Server URL",
-                      hintText: "Hint: Leave empty for meet.jitsi.si"),
-                ),
+                // TextField(
+                //   controller: serverText,
+                //   decoration: InputDecoration(
+                //       border: OutlineInputBorder(),
+                //       labelText: "Server URL",
+                //       hintText: "Hint: Leave empty for meet.jitsi.si"),
+                // ),
                 SizedBox(
                   height: 16.0,
                 ),
@@ -78,16 +78,16 @@ class _MyAppState extends State<MyApp> {
                     labelText: "Room",
                   ),
                 ),
-                SizedBox(
-                  height: 16.0,
-                ),
-                TextField(
-                  controller: subjectText,
-                  decoration: InputDecoration(
-                    border: OutlineInputBorder(),
-                    labelText: "Subject",
-                  ),
-                ),
+                // SizedBox(
+                //   height: 16.0,
+                // ),
+                // TextField(
+                //   controller: subjectText,
+                //   decoration: InputDecoration(
+                //     border: OutlineInputBorder(),
+                //     labelText: "Subject",
+                //   ),
+                // ),
                 SizedBox(
                   height: 16.0,
                 ),
@@ -111,9 +111,9 @@ class _MyAppState extends State<MyApp> {
                 SizedBox(
                   height: 16.0,
                 ),
-                SizedBox(
-                  height: 16.0,
-                ),
+                // SizedBox(
+                //   height: 16.0,
+                // ),
                 CheckboxListTile(
                   title: Text("Audio Only"),
                   value: isAudioOnly,
