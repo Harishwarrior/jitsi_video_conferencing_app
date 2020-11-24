@@ -2,8 +2,11 @@
 
 A video conferencing app made with flutter using jitsi SDK.
 
+Leave a star, if you like this.
+
 # Screenshots
 <img src="https://github.com/CSEKINGS/video_conferencing_app/blob/master/Screenshot_20201123-182928.jpg">
+<img src="https://github.com/CSEKINGS/video_conferencing_app/blob/master/Screenshot_20201123-184306.jpg">
 
 ## Getting Started
 
