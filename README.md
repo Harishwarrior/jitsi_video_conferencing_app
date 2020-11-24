@@ -5,8 +5,25 @@ A video conferencing app made with flutter using jitsi SDK.
 Leave a star, if you like this.
 
 # Screenshots
-<img src="https://github.com/CSEKINGS/video_conferencing_app/blob/master/Screenshot_20201123-182928.jpg">
-<img src="https://github.com/CSEKINGS/video_conferencing_app/blob/master/Screenshot_20201123-184306.jpg">
+<table>
+  <tr>
+    <td>Home screen</td>
+     <td>Conference connected</td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot_20201123-182928.jpg" width=240   height=520></td>
+    <td><img src="Screenshot_20201123-184306.jpg" width=240 height=520></td>
+  </tr>
+ </table>
+
+## How to compile 
+
+1. Pull the project.
+2. run ``pub get``
+3. run ``flutter build apk --debug``
+4. then run ``flutter build apk --profile``
+
+For split apk run ``flutter build apk --split-per-abi``
 
 ## Getting Started
 
@@ -21,13 +38,4 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-## How to compile 
-
-1. Pull the project.
-2. run ``pub get``
-3. run ``flutter build apk --debug``
-4. then run ``flutter build apk --profile``
-
-
-For split apk run ``flutter build apk --split-per-abi``
 
