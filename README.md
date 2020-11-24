@@ -2,7 +2,7 @@
 
 A video conferencing app made with flutter using jitsi SDK.
 
-This is an demo project, feel free to modify it.
+This is a demo project, feel free to modify it.
 
 Leave a star, if you like this.
 
