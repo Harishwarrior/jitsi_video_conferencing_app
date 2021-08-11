@@ -6,7 +6,7 @@ This is a demo project, feel free to modify it.
 
 Leave a star, if you like this.
 
-# Screenshots
+## Screenshots
 <table>
   <tr>
     <td>Home screen</td>
